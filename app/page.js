@@ -50,7 +50,7 @@ export default function Home() {
       {
         fontFamily: '"Urbanist", sans-serif',
         fontWeight: 700,
-        letterSpacing: '300px',
+        letterSpacing: '16px',
         color: '#f4f6f3', // Default font color
       },
     },
@@ -290,8 +290,8 @@ export default function Home() {
          
           <Button 
             variant = "contained"
-            sx={{ borderRadius: 'inherit', height: "50px", marginLeft: "30px" }}
-            paddingBottom = "30px"
+            sx={{ borderRadius: 'inherit', height: "50px", marginLeft: "50px" }}
+            paddingBottom = "50px"
             marginBottom= "30px"
             justifyContent= "center"
             alignItems="center"
