@@ -16,6 +16,7 @@ import React from 'react';
 // import styled from '@emotion/styled';
 // import videoBg from '../public/videoBg.mp4';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { purple } from '@mui/material/colors';
 
 const theme = createTheme({
   typography: {
@@ -288,7 +289,7 @@ export default function Home() {
                       alignItems="center" // This aligns all items horizontally
                     >
                       <Grid item xs={4}>
-                        <Typography variant="h3" textAlign="center">
+                        <Typography variant="h3" textAlign="center" color="purple">
                           {name.charAt(0).toUpperCase() + name.slice(1)}
                         </Typography>
                       </Grid>
