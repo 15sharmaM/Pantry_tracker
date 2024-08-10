@@ -12,6 +12,7 @@ import React from 'react';
 
 // Import required components from @mui/material
 import { Box, Button, Modal, Stack, TextField, Typography, Grid } from '@mui/material';
+import { createTheme, ThemeProvider } from '@mui/material';
 
 const theme = createTheme({
   typography: {
