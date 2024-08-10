@@ -1,11 +1,13 @@
 {
-  "name": "inventory_management",
+  "name": "pantry_tracker",
   "version": "0.1.0",
   "private": true,
+  
   "scripts": {
+    "prestart": "npm run build",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3001",
     "lint": "next lint"
   },
   "dependencies": {
