@@ -9,11 +9,11 @@ import {
   getDoc,
   setDoc,
 } from 'firebase/firestore';
-import React from 'react';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // Import required components from @mui/material
 import { Box, Button, Modal, Stack, TextField, Typography, Grid } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material';
+// import { useClient } from './path/to/useClient'; // Replace with actual path
 
 const theme = createTheme({
   typography: {
